@@ -7,4 +7,3 @@ This dataset contains various files (see description at the following link) incl
 
 Here are the results for one of the site's turbines in 2019.
 
-Translated with DeepL.com (free version)

@@ -7,4 +7,5 @@ This dataset contains various files (see description at the following link) incl
 
 Here are the results for one of the site's turbines in 2019.
 
-Quantile regression
+
+<img width="679" alt="image" src="https://github.com/user-attachments/assets/b68aede4-86e4-4542-a6a9-9184bf088b75" />

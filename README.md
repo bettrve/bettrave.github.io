@@ -9,3 +9,5 @@ Here are the results for one of the site's turbines in 2019.
 
 ![Figure_2](https://github.com/user-attachments/assets/7bcbd733-9ce6-47e2-8369-6a0273f5e5a5)
 ![Figure_3](https://github.com/user-attachments/assets/92cbf7cd-9d10-49c6-b169-23f5ce842778)
+
+{\displaystyle f(x;k,\lambda )={\frac {k}{\lambda }}\left({\frac {x}{\lambda }}\right)^{k-1}\operatorname {e} ^{-(x/\lambda )^{k}}\,}

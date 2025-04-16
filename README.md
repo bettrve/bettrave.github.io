@@ -12,4 +12,4 @@ Next, let's take a closer look at the histograms.
 ![Figure_2](https://github.com/user-attachments/assets/7bcbd733-9ce6-47e2-8369-6a0273f5e5a5)
 ![Figure_3](https://github.com/user-attachments/assets/92cbf7cd-9d10-49c6-b169-23f5ce842778)
 
-${k/\lambda}(x/\lambda)**(k-1)$
+${k/\lambda}(x/\lambda)^(k-1)*e^-{x/\lambda}$

@@ -19,7 +19,9 @@ Each scada file contains 261 columns of :
 
 ## Wind speed distribution analysis
 
-A number of different methods have been proposed and evaluated with the aim of determining the best practice. Most commonly used for wind energy assessments is the two-parameter Weibull distribution, which has been shown to accurately capture the skewness of the wind speed distribution. The Weibull distribution function, as given in Eq. (2), generally contains a scale parameter, c, in units of wind speed, which determines the abscissa scale of the wind speed distribution, and a dimensionless shape parameter, k, which reflects the width of the distribution
+A number of different methods have been proposed and evaluated with the aim of determining the best practice. Most commonly used for wind energy assessments is the two-parameter Weibull distribution, which has been shown to accurately capture the skewness of the wind speed distribution. 
+
+The Weibull distribution function, as given in Eq. (2), generally contains a scale parameter, c, in units of wind speed, which determines the abscissa scale of the wind speed distribution, and a dimensionless shape parameter, k, which reflects the width of the distribution. There are several methods for parameter estimation of the probability distribution. The most common are the method of moments, least square method, method of L-moments and maximum likelihood method, power density method.
 
 for this purpose, we will the tool curve_fit from scipy that uses non-linear least squares to fit a function, f, to data.
 
@@ -36,5 +38,7 @@ The initialisation p0 takes two intial guess for {k} and {c}, respectively 2 and
 
 ![Figure_3](https://github.com/user-attachments/assets/92cbf7cd-9d10-49c6-b169-23f5ce842778)
 
-Once the scale and shape parameters are determined, the wind power density can be determined. 
+Once the scale and shape parameters are determined, the wind power density can be determined. In order to determine the performance of the Weibull distribution for modelling the wind speed data, the coefficient of determination (𝑅2) and the root mean square error (RMSE) were used. 
+
+Analysis showed that the ...
 

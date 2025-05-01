@@ -1,5 +1,5 @@
 # bettrave.github.io
-# Wind SCADA analysis
+# Wind turbine SCADA analysis and performance analysis
 
 ## The Dataset
 

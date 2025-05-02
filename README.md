@@ -12,8 +12,13 @@ Each scada file contains 261 columns of :
 1. meteorological data (e.g wind speed (m/s), wind direction , air temperature)
 2. data linked to the wind turbine itself (e.g blade angle (pitch position), rotor speed, tower acceleration, temperature of major components (e.g hub, rotor bearing, transformer))
 3. electrical data (e.g current, voltage, grid current, grid voltage, grid frequency, power factor, reactive power)
+4. power and energy data (power (kW) and lost production due to curtailment
 
 ** including min, max and std for each data type cited above
+
+A status/event file for each turbine is also provided.
+
+In the next slides, first turbine will be analysed for the time interval: 2019-01-01 00:00:00 to 2020-01-01 00:00:00 (365 days).
 
 ## Data cleaning
 
@@ -40,4 +45,6 @@ Once the scale and shape parameters are determined, the wind power density can b
 Analysis showed that the ...
 
 ## Wind roses monthly analysis
+
+Wind direction plays an important role 
 

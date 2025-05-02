@@ -48,3 +48,7 @@ Analysis showed that the ...
 
 Wind direction plays an important role 
 
+## Power curve filtering and smoothing
+
+
+

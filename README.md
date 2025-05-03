@@ -50,5 +50,7 @@ Wind direction plays an important role
 
 ## Power curve filtering and smoothing
 
+## Pozer curve efficiency
+
 
 

@@ -42,13 +42,15 @@ In order to determine the performance of the Weibull distribution for modelling 
 
 Once the scale and shape parameters are determined, the wind power density can be determined. It represents the potential available wind energy rather than what a turbine can extract.
 
-Analysis showed that the ...
 
 ## Wind roses monthly analysis
 
-Wind direction plays an important role 
+
 
 ## Power curve filtering and smoothing
+
+![Figure_1_](https://github.com/user-attachments/assets/59ea5130-403d-4750-8a14-1725c0317236)
+
 
 ## Pozer curve efficiency
 

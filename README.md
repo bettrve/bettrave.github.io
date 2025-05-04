@@ -47,12 +47,12 @@ Once the scale and shape parameters are determined, the wind power density can b
 
 
 
-## Power curve filtering and smoothing
+## Power curve efficiency
 
-![Figure_1_](https://github.com/user-attachments/assets/59ea5130-403d-4750-8a14-1725c0317236)
+Appropriate data pre-processing is fundamental in order to interpret the wind turbine performance correctly. In particular, a two-step method is applied in this study:
+Industrial wind farms might operate under curtailment, due to grid requirements or for noise- or load-reduction. It is recommended to filter out the time steps associated with operation under curtailment when analyzing the performance of a wind turbine. A simple and effective method is based on the fact that wind turbines under curtailment are forced to pitch anomalously in order to regulate the load at the desired set point. Therefore, for the deviation with respect to the average wind speed–blade pitch, a curve can be used for distinguishing the operation under curtailment. A 2 deg threshold has been employed for this study.
 
 
-## Pozer curve efficiency
 
 
 

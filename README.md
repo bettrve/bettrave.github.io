@@ -16,7 +16,7 @@ Each scada file contains 261 columns of :
 
 ** including min, max and std for each data type cited above
 
-A status/event file for each turbine is also provided.
+A status/event file for each turbine is also provided where events or informations are recorded. 
 
 In the next slides, first turbine will be analysed for the time interval: 2019-01-01 00:00:00 to 2020-01-01 00:00:00 (365 days).
 

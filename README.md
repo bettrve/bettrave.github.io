@@ -45,6 +45,9 @@ Once the scale and shape parameters are determined, the wind power density can b
 
 ## Wind roses monthly analysis
 
+![Wind roses](https://github.com/user-attachments/assets/b67727dd-1962-4a44-a5b5-2d4f5f8d0937)
+
+This wind rose reveals that the prevailing winds during the given period
 
 ## Power curve efficiency
 

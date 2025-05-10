@@ -26,13 +26,13 @@ In the next slides, first turbine will be analysed for the time interval: 2019-0
 
 A number of different methods have been proposed and evaluated with the aim of determining the best wind distribution. Most commonly used for wind energy assessments is the two-parameter Weibull distribution, which has been shown to accurately capture the skewness of the wind speed distribution. 
 
-The Weibull distribution function, as given in Eq. (1), generally contains a scale parameter, {c}, in units of wind speed, which determines the abscissa scale of the wind speed distribution, and a dimensionless shape parameter, {k}, which reflects the width of the distribution. Several methods for parameter estimation of the probability distribution exists in the literature. The most common are the method of moments, least square method, method of L-moments and maximum likelihood method and power density method.
+The Weibull distribution function, as given in Eq. (1), generally contains a scale parameter, _c_, in units of wind speed, which determines the abscissa scale of the wind speed distribution, and a dimensionless shape parameter, _k_, which reflects the width of the distribution. Several methods for parameter estimation of the probability distribution exists in the literature. The most common are the method of moments, least square method, method of L-moments and maximum likelihood method and power density method.
 
   ![image](https://github.com/user-attachments/assets/748253fd-fc21-44a2-b2c1-e277968d3ccb) (Eq. 1)
 
-In this case, we will use the tool _curve_fit_ from _scipy_ that uses non-linear least squares. A loop is calculating each bins center values and bins center heights and is optimising parameters {k} and {c}. Based on the monthly aggregated histogram plot, the initialisation p0 takes two intial guess for {k} and {c}, respectively 2 and 4. The curve fit is then plotted over the distribution (green) and compared to a KDE plot (orange).
+In this case, we will use the tool _curve_fit_ from _scipy_ that uses non-linear least squares. A loop is calculating each bins center values and bins center heights and is optimising parameters {k} and {c}. Based on the monthly aggregated histogram plot, the initialisation p0 takes two intial guess for _k_ and _c_, respectively 2 and 4. The curve fit is then plotted over the distribution (green) and compared to a KDE plot (orange).
 
-Analysis showed that the monthly shape parameter 𝑘 ranged from x in x to x in x and the monthly scale parameter 𝑐 ranged from x m/s in x to x m/s in x.
+Analysis showed that the monthly shape parameter 𝑘 ranged from 2,12 in March to 3.15 in December and the monthly scale parameter 𝑐 ranged from x m/s in x to x m/s in x.
 
 In order to determine the performance of the Weibull distribution for modelling the wind speed data, the coefficient of determination (𝑅2) and the root mean square error (RMSE) were used. The correlation coefficient over the year between 0.95 and 0.98 and the values of RMSE are less than 0.01. It indicates that the Weibull distribution describes the data satisfactorily. Furthermore, the goodness of fit was found to be an inverse function of the shape parameter (not shown).
 

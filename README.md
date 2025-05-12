@@ -32,7 +32,7 @@ The Weibull distribution function, as given in Eq. (1), generally contains a sca
 
 In this case, we will use the tool _curve_fit_ from _scipy_ that uses non-linear least squares. A loop is calculating each bins center values and bins center heights and is optimising parameters {k} and {c}. Based on the monthly aggregated histogram plot, the initialisation p0 takes two intial guess for _k_ and _c_, respectively 2 and 4. The curve fit is then plotted over the distribution (green) and compared to a KDE plot (orange).
 
-Analysis showed that the monthly shape parameter 𝑘 ranged from 2,12 in March to 3.15 in December and the monthly scale parameter 𝑐 ranged from x m/s in x to x m/s in x.
+Analysis showed that the monthly shape parameter 𝑘 ranged from 2.12 in March to 3.15 in December and the monthly scale parameter 𝑐 ranged from 5.33 m/s in May to 8.00 m/s in December.
 
 In order to determine the performance of the Weibull distribution for modelling the wind speed data, the coefficient of determination (𝑅2) and the root mean square error (RMSE) were used. The correlation coefficient over the year between 0.95 and 0.98 and the values of RMSE are less than 0.01. It indicates that the Weibull distribution describes the data satisfactorily. Furthermore, the goodness of fit was found to be an inverse function of the shape parameter (not shown).
 
@@ -40,22 +40,26 @@ In order to determine the performance of the Weibull distribution for modelling 
 
 ![Figure_3](https://github.com/user-attachments/assets/92cbf7cd-9d10-49c6-b169-23f5ce842778)
 
-Once the scale and shape parameters are determined, the wind power density can be determined. It represents the potential available wind energy rather than what a turbine can extract.
+Once the scale and shape parameters are determined, the wind power density can be determined. It represents the potential available wind energy rather than what a turbine can extract. 
 
 
 ## Wind roses monthly analysis
 
 ![Wind roses](https://github.com/user-attachments/assets/b67727dd-1962-4a44-a5b5-2d4f5f8d0937)
 
-This wind rose reveals that the prevailing winds during the given period
+This wind rose reveals that the prevailing winds during the given period are mainly located in the W - SW region of the regions 
 
 ## Power curve efficiency
 
 Appropriate data pre-processing is fundamental in order to interpret the wind turbine performance correctly. In particular, downtime and curtailment need to be identified in the power-wind speed curve. 
 
-Downtime
+Downtime : 
 
-Curtailment
+Downtime occurs in the region U ­> U_cut_in and U > U_rated and with zero power
+
+Curtailment :
+
+Curtailment occurs 
 
 
 

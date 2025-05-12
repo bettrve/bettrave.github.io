@@ -51,7 +51,7 @@ This wind rose reveals that the prevailing winds during the given period are mai
 
 ## Power curve efficiency
 
-Appropriate data pre-processing is fundamental in order to interpret the wind turbine performance correctly. In particular, downtime and curtailment need to be identified in the power-wind speed curve. 
+Appropriate data pre-processing is fundamental in order to interpret the wind turbine performance correctly. In particular, downtime and curtailment need to be identified in the power-wind speed curve. To eliminate these anomalies, ML algorithms can be employed
 
 Downtime : 
 

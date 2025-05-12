@@ -51,15 +51,20 @@ This wind rose reveals that the prevailing winds during the given period are mai
 
 ## Power curve efficiency
 
-Appropriate data pre-processing is fundamental in order to interpret the wind turbine performance correctly. In particular, downtime and curtailment need to be identified in the power-wind speed curve. To eliminate these anomalies, ML algorithms can be employed
+Appropriate data pre-processing is fundamental in order to interpret the wind turbine performance correctly. In particular, downtime and curtailment need to be identified in the power-wind speed curve. To eliminate these anomalies, ML algorithms can be employed and/or conditional filtering based on the SCADA using blade pitch vs wind speed for example.
 
-Downtime : 
+Identifying downtime mode using blade pitch angle : 
 
-Downtime occurs in the region U ­> U_cut_in and U > U_rated and with zero power
+![Image1](https://github.com/user-attachments/assets/e4d5e367-a186-44ab-883f-f8082a0c95a4)
+
+
+The zone highlighted in red corresponds (blade pitch = 90) means that the wind turbine is fully stopped. The zone highlighted in green corresponds to the wind turbine idling, waiting for the wind to pick up (blade pitch = 45). Filtering the data for blade pitch angle above 45 degrees highlights downtime on the power curve and also transitional points where part of the 10-minute data is downtime. We can capture more transitional points by using Blade pitch angle, Max. Not all operational points are highlighted which means that points under the power curve are in a different operational mode. 
+
+![BP with BPMax and BP sup 45](https://github.com/user-attachments/assets/f7fae600-ac2a-4efd-9dca-5c28f44ff48f)
 
 Curtailment :
 
-Curtailment occurs 
+Curtailment occurs in the region III of the power curve (U_rated to U_cut_out). 
 
 
 

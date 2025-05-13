@@ -57,10 +57,13 @@ Identifying downtime mode using blade pitch angle :
 
 ![Image1](https://github.com/user-attachments/assets/e4d5e367-a186-44ab-883f-f8082a0c95a4)
 
-
-The zone highlighted in red corresponds (blade pitch = 90) means that the wind turbine is fully stopped. The zone highlighted in green corresponds to the wind turbine idling, waiting for the wind to pick up (blade pitch = 45). Filtering the data for blade pitch angle above 45 degrees highlights downtime on the power curve and also transitional points where part of the 10-minute data is downtime. We can capture more transitional points by using Blade pitch angle, Max. Not all operational points are highlighted which means that points under the power curve are in a different operational mode. 
+The zone highlighted in red corresponds (blade pitch = 90) means that the wind turbine is fully stopped. The zone highlighted in green corresponds to the wind turbine idling, waiting for the wind to pick up (blade pitch = 45). Filtering the data for blade pitch angle above 45 degrees highlights downtime on the power curve and also transitional points where part of the 10-minute data is downtime. We can capture more transitional points by using Blade pitch angle, Max. 
 
 ![BP with BPMax and BP sup 45](https://github.com/user-attachments/assets/f7fae600-ac2a-4efd-9dca-5c28f44ff48f)
+
+Not all operational points are highlighted which means that points under the power curve are in a different operational mode. 
+
+![P vs BP with BPMax and BP sup 45](https://github.com/user-attachments/assets/7500c300-af54-4ae1-963a-ab284417f186)
 
 Curtailment :
 

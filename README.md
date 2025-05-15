@@ -64,9 +64,12 @@ Filtering the data for blade pitch angle above 45 degrees highlights downtime on
 ![BP with BPMax and BP sup 45](https://github.com/user-attachments/assets/f7fae600-ac2a-4efd-9dca-5c28f44ff48f)
 <img width="364" alt="P vs BP with BPMax and BP sup 45 - 3D" src="https://github.com/user-attachments/assets/60a9d18f-3a47-4af8-b0d4-b2f7cc42afdc" />
 
-Not all operational points are highlighted which means that points under the power curve are in a different operational mode. 
+Not all operational points are highlighted which means that points under the power curve are in a different operational mode.  
 
 ![PvsWS_BladePitchRed](https://github.com/user-attachments/assets/30d5a99a-b4f2-4df6-a5b5-eacd5782e18a)
+
+As mentionned earlier, ML algorithms could be employed for Anomaly detection. For example, we could try using Local Outier Factor on the Power Curve - Wind Speed. The algorithm is used on each bins. As the power increases, points far from the curve will be eliminated.
+
 
 
 Curtailment :
